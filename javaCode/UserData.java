@@ -10,7 +10,6 @@ public class UserData {
         password = builder.password;
         emailAddress = builder.emailAddress;
     }
-
     public char[] getUsername(){
         return username;
     }
@@ -20,7 +19,6 @@ public class UserData {
     public String getEmailAddress(){
         return emailAddress;
     }
-
     public void setUsername(char[] u){
         username = u;
     }
@@ -35,10 +33,6 @@ public class UserData {
         private char[] username;
         private char[] password;
         private String emailAddress;
-        
-        public UserDataBuilder() {
-        	
-        }
         
         public UserDataBuilder username(char[] user)
         {
