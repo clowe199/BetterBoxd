@@ -4,6 +4,11 @@ public class UserData {
     private char[] username;
     private char[] password;
     private String emailAddress;
+    // private Movie[] watchedList;
+    // private Movie[] watchLaterList;
+    //add methods: addToWatched, addToWatchLater, watchedContains(Movie), watchLaterContains(Movie),
+    //getWatched, getWatchLater
+    //Need Movie class first
     
     public UserData(UserDataBuilder builder){
         username = builder.username;
@@ -56,4 +61,6 @@ public class UserData {
             return new UserData(this);
         }
     }
+
+
 }
