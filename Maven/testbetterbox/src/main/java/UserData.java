@@ -1,6 +1,4 @@
-﻿package javaCode;
-
-public class UserData {
+﻿public class UserData {
     private char[] username;
     private char[] password;
     private String emailAddress;
