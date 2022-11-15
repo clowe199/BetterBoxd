@@ -3,7 +3,8 @@ import info.movito.themoviedbapi.TmdbApi;
 import info.movito.themoviedbapi.TmdbAuthentication;
 import info.movito.themoviedbapi.TmdbMovies;
 
-public class main {
+public class TMDBController {
+    
     public static void main(String args[]){
         System.out.println("Hello World");
         String apiKey = "7f8fa1bf325f4325f96ae5abae237bd1";
