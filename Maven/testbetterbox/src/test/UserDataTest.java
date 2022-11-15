@@ -3,8 +3,8 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
 
-import javaCode.UserData;
-import javaCode.UserData.UserDataBuilder;
+import src.main.UserData;
+import src.main.test.UserData.UserDataBuilder;
 
 public class UserDataTest {
     @Test
